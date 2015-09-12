@@ -1,6 +1,6 @@
 # Insights into plant biological processes through phenotyping
 
-![legend ](images/Montage_main_horizontal.jpg)
+![](https://raw.githubusercontent.com/guillaumelobet/embo_phenotyping/master/images/Montage_main_horizontal.jpg)
 
 	EMBO Practical Course
 	13 – 19 September 2015 | Ghent, Belgium
