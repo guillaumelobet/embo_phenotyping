@@ -154,7 +154,11 @@ This document was created for the [Insights into plant biological processes thro
 
 
 
+### Practicals
 
+- ImageJ introduction
+	- [presentation](https://github.com/guillaumelobet/embo_phenotyping/tree/master/presentations)
+	- [macro example](https://github.com/guillaumelobet/embo_phenotyping/tree/master/materials)
 
 
 
