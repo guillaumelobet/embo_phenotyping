@@ -47,56 +47,49 @@
 <a id="overview-of-the-course" class="anchor" href="#overview-of-the-course" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview of the course</h2>
 
 <ul>
-<li>
-<p>Day 0</p>
+<li>Day 0
 
 <ul>
 <li>Registration, welcome and introductions <code>Ghent</code>
 </li>
 </ul>
 </li>
-<li>
-<p>Day 1</p>
+<li>Day 1
 
 <ul>
 <li>Gaining insights into biological processes through phenotyping: what is phenotyping, what is it used for and how is it done? <code>Ghent</code>
 </li>
 </ul>
 </li>
-<li>
-<p>Day 2</p>
+<li>Day 2
 
 <ul>
 <li>Quantitative shoot growth analysis: on what the number and size of shoots, leaves and cells, as measured over time, can tell about underlying biological processes <code>Ghent</code>
 </li>
 </ul>
 </li>
-<li>
-<p>Day 3</p>
+<li>Day 3
 
 <ul>
 <li>Quantitative root system and root growth analysis: on what root system architecture and root growth can tell us about soil exploitation abilities of plants <code>Louvain-la-Neuve</code>
 </li>
 </ul>
 </li>
-<li>
-<p>Day 4</p>
+<li>Day 4
 
 <ul>
 <li>Plant phenotyping beyond growth assessment and lab environments: physiological and performance trait measurements in field environments <code>Ghent</code>
 </li>
 </ul>
 </li>
-<li>
-<p>Day 5</p>
+<li>Day 5
 
 <ul>
 <li>Exploration of the electromagnetic spectrum for the measurement or derivation of proxies for physiological plant traits <code>Ghent</code>
 </li>
 </ul>
 </li>
-<li>
-<p>Day 6</p>
+<li>Day 6
 
 <ul>
 <li>Moderated discussion covering the whole course &amp; closure <code>Ghent</code>
@@ -110,6 +103,315 @@
 
 <h2>
 <a id="day-1-what-is-phenotyping" class="anchor" href="#day-1-what-is-phenotyping" aria-hidden="true"><span class="octicon octicon-link"></span></a>Day 1: What is phenotyping?</h2>
+
+<h3>
+<a id="christine-granier-inra-france" class="anchor" href="#christine-granier-inra-france" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://www1.montpellier.inra.fr/ibip/lepse/english/teams/spic.htm">Christine Granier</a>, <a href="https://www1.montpellier.inra.fr/ibip/lepse/english/index.htm">INRA</a>, France</h3>
+
+<ul>
+<li>Why did we start using platform ?</li>
+<li>What are the bottleneck now ? </li>
+<li>The aim is to bind together the phenotype and genotype. Phenotyping has long been the bottleneck and DNA sequencing has advance very quickly</li>
+<li>Based on Google scholar occurence, plant genotyping has reached a plateau while phenotyping is in an exponential phase</li>
+<li>Very different questions depending on the field (plant level, leaf level, molecular, hydraulics). All questions are valid and are related. The difficulty is tat all the traits can vary in time and space (not all at the same rate) and are interconnected. They all vary with genotype and environment</li>
+<li>We need the help from computers to integrate everything: image analysis, modelling, stats. This is the new bottleneck.</li>
+<li>When starting to make physiological experiment on Arabidopsis, it was difficult to have reproducible results. </li>
+<li>For simple task (imaging, weighting, watering), robot can do it, we do not need post-docs to do it</li>
+<li>Building of phenotyping platform (<a href="http://bioweb.supagro.inra.fr/phenopsis/">PHENOPSIS</a>) (Granier et al. 2006)</li>
+</ul>
+
+<p><img src="https://raw.githubusercontent.com/guillaumelobet/embo_phenotyping/master/images/phenopsys.jpg" alt=""></p>
+
+<ul>
+<li>Need homogeneous conditions for all the plants. This is of outmost importance, as it will influence the results really heavily. Need to check between every experiment. </li>
+<li>It is important to think about the management of the platform on te long term (good technicians)</li>
+<li>Even with the exact same protocole, results will be different across groups (Massonnet et al 2010).</li>
+<li>
+<p>Need to have sensors (light, temp, hum) close to the plants to track the local envi changes. These local change can change the output of the experiment.</p>
+
+<ul>
+<li>leaf expansion is highly sensible to incident light levels</li>
+<li>leaf expansion is highly sensitive to Vapour Pressure Deficit (VPD)</li>
+</ul>
+</li>
+<li><p>This variability calls for automation of the growth and measurement processes</p></li>
+<li>Automated technique improve the reproducibility (Baerenfaller et al 2012), so they allow to compare genotypes and treatments</li>
+<li>Traits vary overtime during devpmt. When to compare plant traits?</li>
+<li>leaf growth is a very dynamic process. It is impossible to predict final leaf stage with only one measurement at one date. (Lievre et al. 2013, Dapp et al 2015)</li>
+<li>Now that we have a robot, is is possible to increase the diversity of measured traits (going down to cellular traits)?</li>
+<li>When you combien a large number of traits / genotype / envi, you need new tools to make sense of your data. Integration with statisticians, modellers, ... (Tisé et al 2008, MAssonnet et al 2011)</li>
+</ul>
+
+<p><img src="https://raw.githubusercontent.com/guillaumelobet/embo_phenotyping/master/images/tisn%C3%A9.png" alt="From Tisné et al 2011, Plant Physiology"></p>
+
+<ul>
+<li>All data from the phenotyping platform are freely available from <a href="http://bioweb.supagro.inra.fr/phenopsis/">http://bioweb.supagro.inra.fr/phenopsis/</a>
+</li>
+<li><a href="http://bioweb.supagro.inra.fr/phenodyn/">Phenodyn</a></li>
+<li><a href="http://bioweb.supagro.inra.fr/phenoarch/index.php/en/">PhenoArch</a></li>
+<li>All the platforms are available in the EPPN networks</li>
+</ul>
+
+<h4>
+<a id="references" class="anchor" href="#references" aria-hidden="true"><span class="octicon octicon-link"></span></a>References</h4>
+
+<ul>
+<li><a href="http://doi.org/10.1038/msb.2012.39">Baerenfaller, K., Massonnet, C., Walsh, S., Baginsky, S., Bühlmann, P., Hennig, L., et al. (2012). Systems-based analysis of Arabidopsis leaf growth reveals adaptation to water deficit. Molecular Systems Biology, 8(1), 606. </a></li>
+<li><a href="http://doi.org/10.1186/s13007-015-0067-5">Bresson, J., Vasseur, F., Dauzat, M., Koch, G., Granier, C., &amp; Vile, D. (2015). Quantifying spatial heterogeneity of chlorophyll fluorescence during plant growth and in response to water stress. Plant Methods, 11(1), 23. </a></li>
+<li><a href="http://doi.org/10.1111/j.1365-3040.2006.01506.x">Cookson, S. J., RADZIEJWOSKI, A., &amp; Granier, C. (2006). Cell and leaf size plasticity in Arabidopsis: what is the role of endoreduplication? Plant, Cell and Environment, 29(7), 1273–1283.</a></li>
+<li><a href="http://www.nature.com/articles/nplants201592">Dapp, M., Reinders, J., Bédiée, A., Balsera, C., &amp; Bucher, E. (2015). Heterosis and inbreeding depression of epigenetic Arabidopsis hybrids. Nature Plants.</a></li>
+<li><a href="http://doi.org/10.1111/j.1469-8137.2005.01609.x">Granier, C., Aguirrezabal, L., Chenu, K., Cookson, S. J., Dauzat, M., Hamard, P., et al. (2006). PHENOPSIS, an automated platform for reproducible phenotyping of plant responses to soil water deficit in Arabidopsis thaliana permitted the identification of an accession with low sensitivity to soil water deficit. New Phytologist, 169(3), 623–635.</a></li>
+<li><a href="http://doi.org/10.1016/j.pbi.2014.02.009">Granier, C., &amp; Vile, D. (2014). Phenotyping and beyond: modelling the relationships between traits. Current Opinion in Plant Biology, 18, 96–102.</a></li>
+<li><a href="http://doi.org/10.1016/j.tplants.2011.09.005">Furbank, R. T., &amp; Tester, M. (2011). Phenomics – technologies to relieve the phenotyping bottleneck. TRENDS in Plant Science, 16(12), 635–644</a></li>
+<li><a href="http://doi.org/10.1016/j.pbi.2015.02.006">Fahlgren, N., Gehan, M. A., &amp; Baxter, I. (2015). ScienceDirectLights, camera, action: high-throughput plant phenotyping is ready for a close-up. Current Opinion in Plant Biology, 24, 93–99. </a></li>
+<li><a href="http://doi.org/10.1002/wdev.119">Lièvre, M., Wuyts, N., Cookson, S. J., Bresson, J., Dapp, M., Vasseur, F., et al. (2013). Phenotyping the kinematics of leaf development in flowering plants: recommendations and pitfalls. Wiley Interdisciplinary Reviews: Developmental Biology, 2(6), 809–821. </a></li>
+<li><a href="http://doi.org/10.1104/pp.109.148338">Massonnet, C., Vile, D., Fabre, J., Hannah, M. A., Caldana, C., Lisec, J., et al. (2010). Probing the Reproducibility of Leaf Growth and Molecular Phenotypes: A Comparison of Three Arabidopsis Accessions Cultivated in Ten Laboratories. Plant Physiology, 152(4), 2142–2157. </a></li>
+<li>
+<a href="http://doi.org/10.1104/pp.111.179382">Massonnet, C., Tisné, S., RADZIEJWOSKI, A., Vile, D., De Veylder, L., Dauzat, M., &amp; Granier, C. (2011). New insights into the control of endoreduplication: endoreduplication could be driven by organ growth in Arabidopsis leaves. Plant Physiology, 157(4), 2044–2055.</a>
+-<a href="http://doi.org/10.1104/pp.108.124271"> Tisné, S., Reymond, M., Vile, D., Fabre, J., Dauzat, M., Koornneef, M., &amp; Granier, C. (2008). Combined genetic and modeling approaches reveal that epidermal cell area and number in leaves are controlled by leaf and plant developmental processes in Arabidopsis. Plant Physiology, 148(2), 1117–1127. </a>
+</li>
+<li><a href="http://doi.org/10.1093/aob/mcr091">Tisné, S., Barbier, F., &amp; Granier, C. (2011). The ERECTA gene controls spatial and temporal patterns of epidermal cell number and size in successive developing leaves of Arabidopsis thaliana. Annals of Botany, 108(1), 159–168.</a></li>
+</ul>
+
+<h3>
+<a id="xavier-draye---ucl---louvain-la-neuve" class="anchor" href="#xavier-draye---ucl---louvain-la-neuve" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="http://uclouvain.be/xavier.draye">Xavier Draye</a> - <a href="https://www.uclouvain.be/ecav.html">UCL</a> - Louvain-la-Neuve</h3>
+
+<ul>
+<li>Linking phenotyping and models to get more out of your data</li>
+<li>The way you do phenotyping reflect a conceptual model. All phenotypes are modellers. </li>
+</ul>
+
+<p><img src="https://raw.githubusercontent.com/guillaumelobet/embo_phenotyping/master/images/root.png" alt=""></p>
+
+<ul>
+<li>Phenotyping: getting to know everything about nothing? Or knowing nothing about everything?</li>
+<li>Yoav Weisel: Root can be considered as a population. Similarly as a field can be seems as a population. Then, you can sample within the population instead of measuring the whole population.</li>
+<li>
+<p>new conceptual model lead to other phenotyping strategies - length -&gt; growth</p>
+
+<ul>
+<li>number of laterals -&gt; inter-lateral distance function</li>
+<li>...</li>
+</ul>
+</li>
+<li><p>High-throughput root phenotyping in aeroponics <a href="https://www.youtube.com/watch?v=eImg9IobXGE">video</a></p></li>
+<li>High throughput, high resolution time lapse imaging
+
+<ul>
+<li>elongations</li>
+<li>emergence</li>
+<li>angle / tropism</li>
+<li>dynamics</li>
+</ul>
+</li>
+<li>New phenotyping strategies lead to new imaging analysis tools
+
+<ul>
+<li>root system are complex, you can not get everything. So you get what you can, filter it to reduce false positive and keep the rest (again, this is sampling)</li>
+</ul>
+</li>
+<li>Sampling-based image analysis required next data mining pipelines to sort out the different data</li>
+</ul>
+
+<blockquote>
+<p>Be aware of your conceptual model, even if it is implicit!</p>
+</blockquote>
+
+<ul>
+<li>Each phenotyping strategy bears a conceptual model</li>
+<li>
+<p>Different root model co-exists</p>
+
+<ul>
+<li>Archisimple (Pagès et al 2013)</li>
+<li>Topological indices (Fitter 1987)</li>
+<li>FSPM's (Godin and Sinoquet 2005)</li>
+<li>Density based (Dupuy et al. 2005)</li>
+</ul>
+</li>
+<li><p>MOVIE TITLE</p></li>
+<li>
+<p>Case study: Water saving from a soil-root perspective</p>
+
+<ul>
+<li>when you start modelling you move to processes</li>
+<li>explicitly acknowledge non-linear nature of soil-root processes</li>
+</ul>
+</li>
+<li>Modeling can help assess non-linear, multi scale processes (such as water uptake)</li>
+</ul>
+
+<p><img src="https://raw.githubusercontent.com/guillaumelobet/embo_phenotyping/master/images/wateruptake.png" alt=""></p>
+
+<ul>
+<li>Model are always wrong by nature. They can only give you what you put in it. But they can help understand complex processes</li>
+<li>
+<a href="http://sites.uclouvain.be/RSWMS/">RSWMS model</a>(Javaux et al 2008)</li>
+</ul>
+
+<p><img src="https://raw.githubusercontent.com/guillaumelobet/embo_phenotyping/master/images/rswms.png" alt=""></p>
+
+<ul>
+<li>Light transmission imaging to track the evolution of soil water content (Garrigues et al 2006)</li>
+<li>Models can help you access hidden parameters. As long as you have enough experimental data to fit your model correctly. </li>
+<li>The complexity of your system can be an opportunity</li>
+<li>Case study: variability of radial root conductance
+
+<ul>
+<li>three different logics
+
+<ul>
+<li>structure</li>
+<li>apoplastic barriers</li>
+<li>aquaporin expressions</li>
+</ul>
+</li>
+<li>Again, models help you integrate the different logics </li>
+</ul>
+</li>
+<li>Radial root model of water flow
+
+<ul>
+<li>you feed-in the root structure, the expression patterns and you get the radial conductance. </li>
+</ul>
+</li>
+</ul>
+
+<blockquote>
+<p>Thinking about your biological object as a system brings scientific knowledge inside the phenotyping process.</p>
+</blockquote>
+
+<h4>
+<a id="references-1" class="anchor" href="#references-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>References</h4>
+
+<ul>
+<li><a href="http://doi.org/10.1093/jxb/erq077">Draye, X., Kim, Y., Lobet, G., &amp; Javaux, M. (2010). Model-assisted integration of physiological and environmental constraints affecting the dynamic and spatial patterns of root water uptake from soils. Journal of Experimental Botany, 61(8), 2145–2155. </a></li>
+<li>Eshel, A., &amp; Waisel, Y. (1996). Mutliform and multifunction of various constituents of one root system. In Y. Waisel, A. Eshel, &amp; U. Kafkafi (Eds.), Plant Roots: The Hidden Half (3rd ed.). Marcel Dekker, Inc.</li>
+<li><a href="http://doi.org/10.1016/j.jtbi.2005.03.013">Dupuy, L., Fourcaud, T., Stokes, A., &amp; Danjon, F. (2005). A density-based approach for the modelling of root architecture: application to Maritime pine (Pinus pinaster Ait.) root systems. Journal of Theoretical Biology, 236(3), 323–334. </a></li>
+<li><a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2005.01445.x/abstract">Godin, C., &amp; Sinoquet, H. (2005). Functional-structural plant modelling. New Phytologist, 166, 705–708.</a></li>
+<li><a href="http://onlinelibrary.wiley.com/store/10.1111/j.1469-8137.1987.tb04683.x/asset/j.1469-8137.1987.tb04683.x.pdf?v=1&amp;t=iejrokxg&amp;s=6f749a3a514528b4fe90c0c8d61a8214f11b55a9">Fitter, A. H. (1987). An Architectural Approach to the Comparative Ecology of Plant Root Systems. New Phytologist, 106(1), 61–77.</a></li>
+<li><a href="http://doi.org/10.1016/j.ecolmodel.2013.11.014">Pagès, L., Bécel, C., Boukcim, H., Moreau, D., Nguyen, C., &amp; Voisin, A.-S. (2013). Calibration and evaluation of ArchiSimple, a simple model of root system architecture. Ecological Modelling, 290, 76–84.</a></li>
+<li><a href="http://doi.org/10.2136/vzj2007.0115">Javaux, M., Schroeder, T., Vanderborght, J., &amp; Vereecken, H. (2008). Use of a three-dimensional detailed modeling approach for predicting root water uptake. Vadose Zone Journal, 7(3), 1079–1088.</a></li>
+<li><a href="http://link.springer.com/article/10.1007%2Fs11104-004-7903-0">Garrigues, E., Doussan, C., &amp; Pierret, A. (2006). Water uptake by plant roots: I - Formation and propagation of a water extraction front in mature root systems as evidenced by 2D light transmission imaging. Plant and Soil, 283, 83–98.</a></li>
+</ul>
+
+<h3>
+<a id="q--a-session" class="anchor" href="#q--a-session" aria-hidden="true"><span class="octicon octicon-link"></span></a>Q &amp; A session</h3>
+
+<ul>
+<li>
+<strong>Rebecca Schwab</strong> To what extend can you reduce the variability with repetition?
+
+<ul>
+<li>
+<strong>Christine Granier</strong>: 
+
+<ul>
+<li>increasing the number of replicate is always good</li>
+<li>minimal number might depend on the biological question and approach (GWAS, QTL, ...)</li>
+</ul>
+</li>
+<li>
+<strong>Xavier Draye</strong>
+
+<ul>
+<li>this can be modelled before the experiment (trait variability)</li>
+<li>might even depend on the conditions / traits</li>
+<li>once you have a system working, it is worth doing the job at the beginning than you are safe</li>
+</ul>
+</li>
+<li>
+<strong>Gerrit Beemster</strong> 
+
+<ul>
+<li>Seed size is very important and can influence heavily the results. Often overlooked.</li>
+<li>seed size effect reflects on the whole plant development</li>
+<li>you can select the seeds before the experiment (image analysis, seving)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<strong>Ana Paez Garcia</strong> How to trace roots in rhizotrons
+
+<ul>
+<li>
+<strong>Xavier Draye</strong> 
+
+<ul>
+<li>trace using pen and transparent sheet</li>
+<li>then process using root tracing software</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<strong>Ana Paez Garcia</strong> Does someone use the PhenoArch platform for roots?
+
+<ul>
+<li>
+<strong>Christine Granier</strong> 
+
+<ul>
+<li>Not right now</li>
+<li>Should arrive</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<strong>Sivasakthi Kaliamoorthy</strong> Can we predict hydraulic conductivity with models?
+
+<ul>
+<li>
+<strong>Xavier Draye</strong>
+
+<ul>
+<li>soon :)</li>
+<li>using sensibility analysis, we can know the important processes in the system</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>**** About variation. In greenhouse, how can you measure radiation incidence
+
+<ul>
+<li>
+<strong>Christine Granier</strong>
+
+<ul>
+<li>there exist commercial solution to record environmental conditions.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<strong>Giovanni Melandri</strong> When doing population screening in platform, how t do you define base conditions? based on a specific genotype?
+
+<ul>
+<li>
+<strong>Christine Granier</strong>
+
+<ul>
+<li>You can make a preliminary experiment before to define the acceptable window of experimental conditions for the majority of the genotypes / accessions.<br>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="practicals" class="anchor" href="#practicals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Practicals</h3>
+
+<ul>
+<li>ImageJ introduction
+
+<ul>
+<li><a href="https://github.com/guillaumelobet/embo_phenotyping/tree/master/presentations">presentation</a></li>
+<li><a href="https://github.com/guillaumelobet/embo_phenotyping/tree/master/materials">macro example</a></li>
+</ul>
+</li>
+</ul>
 
 <h2>
 <a id="day-2-quantitative-shoot-measurement" class="anchor" href="#day-2-quantitative-shoot-measurement" aria-hidden="true"><span class="octicon octicon-link"></span></a>Day 2: Quantitative shoot measurement</h2>
