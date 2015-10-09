@@ -19,7 +19,8 @@ This document was created for the [Insights into plant biological processes thro
 - Day 1
 	- Gaining insights into biological processes through phenotyping: what is phenotyping, what is it used for and how is it done? ``Ghent``- Day 2	- Quantitative shoot growth analysis: on what the number and size of shoots, leaves and cells, as measured over time, can tell about underlying biological processes ``Ghent``- Day 3	- Quantitative root system and root growth analysis: on what root system architecture and root growth can tell us about soil exploitation abilities of plants ``Louvain-la-Neuve``- Day 4	- Plant phenotyping beyond growth assessment and lab environments: physiological and performance trait measurements in field environments ``Ghent``- Day 5	- Exploration of the electromagnetic spectrum for the measurement or derivation of proxies for physiological plant traits ``Ghent``- Day 6	- Moderated discussion covering the whole course & closure ``Ghent``## Day 0: Opening
 ## Day 1: What is phenotyping?
-### [Christine Granier](https://www1.montpellier.inra.fr/ibip/lepse/english/teams/spic.htm), [INRA](https://www1.montpellier.inra.fr/ibip/lepse/english/index.htm), France
+### Bridging the phenotyping gap for the identification of key determinants of leaf growth and its plasticity
+[Christine Granier](https://www1.montpellier.inra.fr/ibip/lepse/english/teams/spic.htm) | [INRA](https://www1.montpellier.inra.fr/ibip/lepse/english/index.htm) | France
 	Checked by the speaker
 	- Why did we start using platform ?- What are the bottleneck now ? - The aim is to bind together the phenotype and genotype. Phenotyping has long been the bottleneck and DNA sequencing has advance very quickly- Based on Google scholar occurence, plant genotyping has reached a plateau while phenotyping is in an exponential phase- Very different questions depending on the field (plant level, leaf level, molecular, hydraulics). All questions are valid and are related. The difficulty is tat all the traits can vary in time and space (not all at the same rate) and are interconnected. They all vary with genotype and environment- We need the help from computers to integrate everything: image analysis, modelling, stats. This is the new bottleneck.- When starting to make physiological experiment on Arabidopsis, it was difficult to have reproducible results. - For simple task (imaging, weighting, watering), robot can do it, we do not need post-docs to do it- Building of phenotyping platform ([PHENOPSIS](http://bioweb.supagro.inra.fr/phenopsis/)) (Granier et al. 2006)
 ![](https://raw.githubusercontent.com/guillaumelobet/embo_phenotyping/master/images/phenopsys.jpg)- Need homogeneous conditions for all the plants. This is of outmost importance, as it will influence the results really heavily. Need to check between every experiment. - It is important to think about the management of the platform on te long term (good technicians)- Even with the exact same protocole, results will be different across groups (Massonnet et al 2010).- Need to have sensors (light, temp, hum) close to the plants to track the local envi changes. These local change can change the output of the experiment.	- leaf expansion is highly sensible to incident light levels	- leaf expansion is highly sensitive to Vapour Pressure Deficit (VPD)
@@ -45,8 +46,30 @@ This document was created for the [Insights into plant biological processes thro
 
 
 
+### Plant phenotyping practices in industry
 
-### [Xavier Draye](http://uclouvain.be/xavier.draye) - [UCL](https://www.uclouvain.be/ecav.html) - Louvain-la-Neuve
+[Korneel Vandenbroucke](https://www.linkedin.com/pub/korneel-vandenbroucke/6/300/1a4) | [BAYER Crop Science](http://www.cropscience.bayer.com/) | Ghent
+
+> Although the truth is in the field, lab-based phenotyping are still useful.
+
+#### Summary
+
+> The best way to learn of the do phenotyping is to start doing it
+
+Phenotyping platforms are become increasingly popular, both in public research centers (academia) and private companies (for examples, see [EPPN](http://www.plant-phenotyping-network.eu/)). However, when using them, ones has to pay attention to several aspects. 
+
+Firstly, the phenotyping strategy is heavily dependent on the question at hand. There is not universal phenotyping solution that can answer all the question. It need to be adapted to the specific needs. 
+
+Secondly, it is important to keep in mind that phenotyping in controlled environment is only the beginning. The challenge is to go from the greenhouse to the field, in which the plant will be facing multiple stresses at the same time (both biotic and abiotic). Getting feedback from the fields trails is crucial, to be sure to be looking for the right traits. 
+
+Finally, an other challenge is to integrate the wealth of data generated both by the platforms and in the fields. Since the scales are different, the sensors and measured data are likely to be different as well, which makes the integration difficult.
+
+> From an industry point of view, phenotyping needs to be cost effective, which is often hard to measure. Ideally, each euro that goes into the phenotyping platform has to come out. As such, the precision of the phenotyping pipeline is key has it can increase the number of hit characterisation. 
+
+
+
+
+### From phenotyping to model-assisted phenotyping, or how to get more from your data[Xavier Draye](http://uclouvain.be/xavier.draye) | [UCL](https://www.uclouvain.be/ecav.html) | Louvain-la-Neuve
 
 	Checked by the speaker
 	
